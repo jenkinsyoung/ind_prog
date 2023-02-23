@@ -11,9 +11,9 @@ void triangle::set(double a1, double b1, double c1) {
 	c = c1;
 };
 void triangle::show() {
-	cout << "1 сторона: " << a << endl;
-	cout << "2 сторона: " << b << endl;
-	cout << "3 сторона: " << c << endl;
+	cout << "1 СЃС‚РѕСЂРѕРЅР°: " << a << endl;
+	cout << "2 СЃС‚РѕСЂРѕРЅР°: " << b << endl;
+	cout << "3 СЃС‚РѕСЂРѕРЅР°: " << c << endl;
 };
 double triangle::perimetr() {
 	double p = a + b + c;
