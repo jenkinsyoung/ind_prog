@@ -51,7 +51,10 @@ void rational::show() {
 	cout << a << "/" << b << endl;
 };
 
-rational::~rational() {};
+rational::~rational() {
+	a = NULL;
+	b = NULL;
+};
 
 int rational::get_a() {
 	return a;
