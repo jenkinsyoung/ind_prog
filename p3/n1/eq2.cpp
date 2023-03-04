@@ -16,20 +16,19 @@ void eq2::set(double a1, double b1, double c1) {
 }
 
 double eq2::find_X() {
-    setlocale(LC_ALL, "rus");
     if (D < 0) {
-        cout << "Корней нет" << endl;
+        cout << "РљРѕСЂРЅРµР№ РЅРµС‚" << endl;
         return 0;
     }
     else {
         if (D == 0) {
-            cout << "Корень один: " << endl;
+            cout << "РљРѕСЂРµРЅСЊ РѕРґРёРЅ: " << endl;
             double x = (-b - sqrt(D)) / (2 * a);
             cout << x << endl;
             return x;
         }
         else {
-            cout << "Корней 2, наибольший: " << endl;
+            cout << "РљРѕСЂРЅРµР№ 2, РЅР°РёР±РѕР»СЊС€РёР№: " << endl;
             double x1 = (-b - sqrt(D)) / (2 * a);
             double x2 = (-b + sqrt(D)) / (2 * a);
             if (x1 > x2) {
