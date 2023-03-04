@@ -7,7 +7,7 @@ rational::rational() :a(0), b(1) {};
 
 rational::rational(int a1, int b1) {
 	if (b1 == 0) {
-		cout << "Íà íîëü äåëèòü íåëüçÿ. Äðáü èçìåíåíà íà 0/1" << endl;
+		cout << "ÐÐ° Ð½Ð¾Ð»ÑŒ Ð´ÐµÐ»Ð¸Ñ‚ÑŒ Ð½ÐµÐ»ÑŒÐ·Ñ. Ð”Ñ€Ð¾Ð±ÑŒ Ð¸Ð·Ð¼ÐµÐ½ÐµÐ½Ð° Ð½Ð° 0/1" << endl;
 		a = 0;
 		b = 1;
 	}
@@ -28,7 +28,7 @@ rational::rational(int a1, int b1) {
 
 void rational::set(int a1, int b1) {
 	if (b1 == 0) {
-		cout << "Íà íîëü äåëèòü íåëüçÿ. Äðáü èçìåíåíà íà 0/1" << endl;
+		cout << "ÐÐ° Ð½Ð¾Ð»ÑŒ Ð´ÐµÐ»Ð¸Ñ‚ÑŒ Ð½ÐµÐ»ÑŒÐ·Ñ. Ð”Ñ€Ð¾Ð±ÑŒ Ð¸Ð·Ð¼ÐµÐ½ÐµÐ½Ð° Ð½Ð° 0/1" << endl;
 		a = 0;
 		b = 1;
 	}
@@ -84,9 +84,9 @@ void rational::operator> (const rational & r) {
 		a2 = r.a * this->b;
 	}
 	else { a1 = this->a; a2 = r.a; }
-	if (a1 > a2) { cout << "Ïåðâàÿ äðîáü áîëüøå" << endl; }
-	else if (a2 > a1) { cout << "Âòîðàÿ äðîáü áîëüøå" << endl; }
-	else { cout << "Äðîáè ðàâíû" << endl; }
+	if (a1 > a2) { cout << "ÐŸÐµÑ€Ð²Ð°Ñ Ð´Ñ€Ð¾Ð±ÑŒ Ð±Ð¾Ð»ÑŒÑˆÐµ" << endl; }
+	else if (a2 > a1) { cout << "Ð’Ñ‚Ð¾Ñ€Ð°Ñ Ð´Ñ€Ð¾Ð±ÑŒ Ð±Ð¾Ð»ÑŒÑˆÐµ" << endl; }
+	else { cout << "Ð”Ñ€Ð¾Ð±Ð¸ Ñ€Ð°Ð²Ð½Ñ‹" << endl; }
 }
 
 rational& rational::operator+(const rational& r) {
