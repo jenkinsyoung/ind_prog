@@ -13,7 +13,7 @@ int main() {
 
     setlocale(LC_ALL, "rus");
     double a, b, c;
-    cout << "Введите коэффиценты первого уравнения через пробел:" << endl;
+    cout << "Введите коэффициенты первого уравнения через пробел:" << endl;
     cin >> a >> b >> c;
     eq2 exmpl(a, b, c);
     exmpl.find_X();
@@ -22,7 +22,7 @@ int main() {
     cin >> n;
     cout << exmpl.find_Y(n) << endl;
     double a1, b1, c1;
-    cout << "Введите коэффиценты второго уравнения через пробел:" << endl;
+    cout << "Введите коэффициенты второго уравнения через пробел:" << endl;
     cin >> a1 >> b1 >> c1;
     eq2 exmpl2(a1, b1, c1);
     exmpl2.find_X();
