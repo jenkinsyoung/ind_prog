@@ -6,7 +6,7 @@ using namespace std;
 int main() {
 	setlocale(LC_ALL, "rus");
 	int n, a, b;
-	cout<<"введите количество дробей: ";
+	cout<<"Введите количество дробей: ";
 	cin >> n;
 	rational* mas = new rational[n];
 	for (int i = 0; i < n; i++) {
